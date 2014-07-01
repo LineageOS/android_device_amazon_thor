@@ -1,7 +1,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/amazon/thor/device.mk)
 
-# wifi-only device -- set here so that jemlte can keep telephony settings
+# wifi-only device
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
