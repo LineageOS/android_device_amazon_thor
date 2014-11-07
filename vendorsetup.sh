@@ -1,2 +1,2 @@
-add_lunch_combo full_thor-eng
+add_lunch_combo cm_thor-eng
 

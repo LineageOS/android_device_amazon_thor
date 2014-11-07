@@ -5,8 +5,8 @@
 -include vendor/amazon/hdx-common/BoardConfigVendor.mk
 
 # Kernel config
-TARGET_KERNEL_CONFIG := thor_android_defconfig
-BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt.img
+TARGET_KERNEL_CONFIG := thor_defconfig
+BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt-13.3.2.4.img
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := thor
