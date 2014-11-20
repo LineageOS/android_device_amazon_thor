@@ -6,8 +6,7 @@
 
 # Kernel config
 TARGET_KERNEL_CONFIG := thor_cyanogenmod_defconfig
-BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt-13.3.2.4.img
-#dt-13.4.1.1.img
+BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/thor-v2-apq-4.1.dtb
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := thor
