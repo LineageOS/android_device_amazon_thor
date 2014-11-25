@@ -9,3 +9,9 @@ $(call inherit-product-if-exists, vendor/amazon/thor/thor-vendor.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+	LOCAL_KERNEL := device/amazon/thor/kernel
+else
+	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+

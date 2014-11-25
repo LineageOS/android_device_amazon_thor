@@ -5,9 +5,12 @@
 -include vendor/amazon/hdx-common/BoardConfigVendor.mk
 
 # Kernel config
+TARGET_PREBUILT_KERNEL := device/amazon/thor/kernel
+TARGET_KERNEL_SOURCE := kernel/qcom/msm8974
 TARGET_KERNEL_CONFIG := msm8974-perf_defconfig
+
 #thor_cyanogenmod_defconfig
-BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/thor-v2-apq-4.1.dtb
+#BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/thor-v2-apq-4.1.dtb
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := thor

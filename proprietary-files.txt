@@ -1,6 +1,7 @@
 # CM-11.0 #
 # ?libnbaio.so -> "Failed to fetch local time frequency when constructing a..."
 lib/libnbaio.so
+lib/hw/keystore.amzn.qcom.so
 lib/hw/audio_policy.msm8974.so
 lib/hw/audio.primary.msm8974.so
 lib/hw/camera.msm8974.so
@@ -12,6 +13,26 @@ etc/audio_policy.conf
 
 # bin
 #/sbin/cmdd
+bin/diag_callback_client
+bin/diag_dci_sample
+bin/diag_klog
+bin/diag_mdlog
+bin/diag_socket_log
+bin/diag_uart_log
+bin/hvdcp
+bin/profiler_daemon
+bin/rild
+bin/drmdiagapp
+bin/xtwifi-client
+bin/xtwifi-inet-agent
+bin/location-mq
+bin/quipc_igsn
+bin/quipc_main
+bin/gpsone_daemon
+bin/qmiproxy
+bin/ftmdaemon
+bin/dun-server
+bin/sapd
 bin/abtfilt
 bin/rfs_access
 bin/ptt_socket_app
@@ -88,10 +109,10 @@ etc/qosmgr_rules.xml
 etc/qca6234-service.sh
 etc/msap.conf
 etc/monitoring.conf
-#etc/mixer_paths_auxpcm.xml
-#etc/mixer_paths.xml
-#etc/media_profiles.xml
-#etc/media_codecs.xml
+etc/mixer_paths_auxpcm.xml
+etc/mixer_paths.xml
+etc/media_profiles.xml
+etc/media_codecs.xml
 etc/lowi.conf
 etc/kft_blacklist.conf
 etc/izat.conf
@@ -128,7 +149,7 @@ etc/carrier.xml
 etc/capability.xml
 etc/cacert_location.pem
 etc/bcompat.manifest
-#etc/audio_effects.conf
+etc/audio_effects.conf
 etc/apns-conf.xml
 #etc/amz-preloaded-classes
 etc/ad_calib.cfg
@@ -136,7 +157,7 @@ etc/ReceiverFilterPolicy.xml
 etc/DxHDCP.cfg
 etc/wifi/wpa_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_ath6kl.conf
-etc/wifi/wpa_supplicant.conf
+#etc/wifi/wpa_supplicant.conf
 etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/WCNSS_qcom_cfg.ini
 etc/permissions/acclibrary.xml
@@ -357,12 +378,12 @@ lib/modules/au8522.ko
 lib/modules/stv0297.ko
 
 # libs
-lib/libhardware_legacy.so
+#lib/libhardware_legacy.so
 lib/libril-lab126qmi.so
 lib/libaudioroute.so
 lib/libsmartvolume.so
-#lib/hw/audio.primary.msm8974.so
-#lib/hw/audio_policy.msm8974.so
+lib/hw/audio.primary.msm8974.so
+lib/hw/audio_policy.msm8974.so
 
 #lib/libchromatix_imx135_video_hd.so
 #lib/libchromatix_ov8835_zsl.so
@@ -375,7 +396,7 @@ vendor/data/trapz_xml/4.txt
 vendor/data/trapz_xml/3.txt
 vendor/data/trapz_xml/2.txt
 vendor/data/trapz_xml/1.txt
-#vendor/etc/audio_effects.conf
+vendor/etc/audio_effects.conf
 vendor/lib/libdsnetutils.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libds_native.so
