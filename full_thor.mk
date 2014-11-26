@@ -5,6 +5,8 @@ $(call inherit-product, device/amazon/thor/device.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
+PRODUCT_CHARACTERISTICS := tablet,nosdcard
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 PRODUCT_NAME := full_thor

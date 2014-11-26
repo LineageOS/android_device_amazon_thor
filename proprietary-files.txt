@@ -9,7 +9,19 @@ lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
 lib/libqomx_core.so
 etc/audio_policy.conf
+lib/soundfx/libqcomvisualizer.so
+lib/soundfx/libqcompostprocbundle.so
+lib/soundfx/libqcomvoiceprocessing.so
+lib/libloc_api_v02.so
+lib/libloc_core.so
+lib/libloc_ds_api.so
+lib/libloc_eng.so
+lib/libgps.utils.so
 # CM-11.0 #
+
+# audiotest #
+#lib/audioflinger.so
+# audiotest #
 
 # bin
 #/sbin/cmdd
@@ -86,10 +98,8 @@ xbin/trapz
 # etc
 etc/xtwifi.conf
 etc/xtra_root_cert.pem
-#etc/whitelist_appops.xml
 etc/wfdconfigsink.xml
 etc/wfdconfig.xml
-#etc/vold.fstab
 etc/vendor_service.conf
 etc/usf_settings.sh
 etc/usf_post_boot.sh
@@ -391,6 +401,24 @@ lib/hw/audio_policy.msm8974.so
 #lib/libgpu.cr.so
 
 # vendor 
+vendor/app/Ds.odex
+vendor/app/Ds.apk
+vendor/smartvolume/bt_sco.csv
+vendor/smartvolume/wired_headphone.csv
+vendor/smartvolume/bt_a2dp_speaker.csv
+vendor/smartvolume/default.csv
+vendor/smartvolume/speaker.csv
+vendor/smartvolume/bt_a2dp_headphones.csv
+vendor/smartvolume/wired_headset.csv
+vendor/smartvolume/dgtl_dock_headeset.csv
+vendor/smartvolume/bt_sco_carkit.csv
+vendor/smartvolume/fm_radio_tx.csv
+vendor/smartvolume/bt_a2dp.csv
+vendor/smartvolume/anlg_dock_headset.csv
+vendor/smartvolume/bt_sco_headset.csv
+vendor/smartvolume/earpiece.csv
+vendor/smartvolume/aux_digital.csv
+
 vendor/data/trapz_scripts.tar.gz
 vendor/data/trapz_xml/4.txt
 vendor/data/trapz_xml/3.txt

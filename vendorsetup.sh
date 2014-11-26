@@ -1,2 +1,2 @@
-add_lunch_combo cm_thor-eng
+add_lunch_combo cm_thor-userdebug
 
