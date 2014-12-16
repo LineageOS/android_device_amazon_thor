@@ -1,14 +1,6 @@
 # amazon update 4.5.2
 # lib/libutils.so > export needed from audio_policy.msm8974.so
 lib/libutils.so
-lib/libOmxAacEnc.so
-lib/libOmxCore.so
-lib/libOmxQcelp13Enc.so
-lib/libOmxVdec.so
-lib/libOmxAmrEnc.so
-lib/libOmxEvrcEnc.so
-lib/libOmxVdecHevc.so
-lib/libOmxVenc.so
 
 # CM-11.0 #
 # ?libnbaio.so -> "Failed to fetch local time frequency when constructing a..."
@@ -28,12 +20,7 @@ lib/libloc_eng.so
 lib/libgps.utils.so
 # CM-11.0 #
 
-# audiotest #
-#lib/audioflinger.so
-# audiotest #
-
 # bin
-#/sbin/cmdd
 bin/diag_callback_client
 bin/diag_dci_sample
 bin/diag_klog
