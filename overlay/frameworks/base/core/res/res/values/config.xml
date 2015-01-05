@@ -21,71 +21,8 @@
      for different hardware and product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <bool name="config_automatic_brightness_available">true</bool>
-
-    <integer-array name="config_autoBrightnessLevels">
-        <item>13</item>
-        <item>26</item>
-        <item>66</item>
-        <item>82</item>
-        <item>133</item>
-        <item>166</item>
-        <item>266</item>
-        <item>300</item>
-        <item>433</item>
-        <item>466</item>
-        <item>600</item>
-        <item>650</item>
-        <item>867</item>
-        <item>900</item>
-        <item>1300</item>
-        <item>2200</item>
-        <item>6000</item>
-        <item>9000</item>
-    </integer-array>
-
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>20</item>
-        <item>30</item>
-        <item>50</item>
-        <item>70</item>
-        <item>80</item>
-        <item>90</item>
-        <item>100</item>
-        <item>120</item>
-        <item>139</item>
-        <item>151</item>
-        <item>154</item>
-        <item>161</item>
-        <item>169</item>
-        <item>174</item>
-        <item>176</item>
-        <item>202</item>
-        <item>221</item>
-        <item>241</item>
-        <item>255</item>
-    </integer-array>
-
-    <!-- Whether WiFi display is supported by this device.
-         There are many prerequisites for this feature to work correctly.
-         Here are a few of them:
-         * The WiFi radio must support WiFi P2P.
-         * The WiFi radio must support concurrent connections to the WiFi display and
-           to an access point.
-         * The Audio Flinger audio_policy.conf file must specify a rule for the "r_submix"
-           remote submix module.  This module is used to record and stream system
-           audio output to the WiFi display encoder in the media server.
-         * The remote submix module "audio.r_submix.default" must be installed on the device.
-         * The device must be provisioned with HDCP keys (for protected content).
-    -->
-    <bool name="config_enableWifiDisplay">true</bool>
-
-    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
-         autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
-
     <!-- This device does not allow sms service. -->
-    <bool name="config_sms_capable">false</bool>
+    <bool name="config_sms_capable">true</bool>
 
     <!-- Flag indicating whether the current device is "voice capable".
          If true, this means that the device supports circuit-switched
@@ -97,10 +34,6 @@
          PackageManager.FEATURE_TELEPHONY system feature, which is
          available on *any* device with a telephony radio, even if the
          device is data-only. -->
-     <bool name="config_voice_capable">false</bool>
-
-    <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
-         on the headphone/microphone jack. When false use the older uevent framework. -->
-    <bool name="config_useDevInputEventForAudioJack">true</bool>
+     <bool name="config_voice_capable">true</bool>
 
 </resources>
