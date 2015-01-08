@@ -9,9 +9,6 @@ $(call inherit-product-if-exists, vendor/amazon/thor/thor-vendor.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
-# hdx old bootloader dtb compatibility fix + bootloader exploit patch
-# override bootimg to manually append propietary dtb extracted from 4.5.2 kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/amazon/thor/mkboot.mk
 
 
 

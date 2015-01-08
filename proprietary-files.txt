@@ -22,6 +22,7 @@ lib/libgps.utils.so
 # CM-11.0 #
 
 # bin
+bin/btnvtool
 bin/diag_callback_client
 bin/diag_dci_sample
 bin/diag_klog
