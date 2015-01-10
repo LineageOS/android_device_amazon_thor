@@ -83,7 +83,7 @@ def createsig():
     prefix = 0x0001FFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 
     #load the hash from created file
-    f = open("/home/cpasjuste/dev/android-cm/device/amazon/thor/Cuber/hash.abc", "rb")
+    f = open("/home/cpasjuste/android-cm/device/amazon/thor/Cuber/hash.abc", "rb")
     block = f.read(32)
     hash = struct.unpack('>4Q', block)
     hash0 = int(hash[0])<<192
@@ -99,7 +99,7 @@ def createsig():
 
     # write signature to file
     pref = int(prefix)
-    file = open("/home/cpasjuste/dev/android-cm/device/amazon/thor/Cuber/signature.abc","wb")
+    file = open("/home/cpasjuste/android-cm/device/amazon/thor/Cuber/signature.abc","wb")
     file.write(long_to_bytes(pref, "big"))
 
 createsig()
