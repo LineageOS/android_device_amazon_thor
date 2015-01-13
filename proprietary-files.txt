@@ -244,6 +244,7 @@ lib/hw/camera.msm8974.so
 #lib/libgpu.cr.so
 
 # vendor
+#vendor/lib/libbt-vendor.so
 vendor/smartvolume/bt_a2dp_headphones.csv
 vendor/smartvolume/bt_sco_headset.csv
 vendor/smartvolume/earpiece.csv
@@ -518,7 +519,6 @@ vendor/lib/libizat_core.so
 vendor/lib/libprdrmdecrypt.so
 vendor/lib/libmmipstreamutils.so
 vendor/lib/libwfduibcsrcinterface.so
-vendor/lib/libbt-vendor.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libdrmdiag.so
 vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so
