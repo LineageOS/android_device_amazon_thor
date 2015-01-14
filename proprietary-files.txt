@@ -245,6 +245,7 @@ lib/hw/camera.msm8974.so
 
 # vendor
 #vendor/lib/libbt-vendor.so
+vendor/lib/libbtnv.so
 vendor/smartvolume/bt_a2dp_headphones.csv
 vendor/smartvolume/bt_sco_headset.csv
 vendor/smartvolume/earpiece.csv
@@ -338,7 +339,6 @@ vendor/lib/libgsl.so
 vendor/lib/libjpegehw.so
 vendor/lib/libchromatix_imx135_hfr_60.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libbtnv.so
 vendor/lib/lib-imsrcs.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so
