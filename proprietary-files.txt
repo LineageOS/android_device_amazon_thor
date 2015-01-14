@@ -1,14 +1,14 @@
 # amazon update 4.5.2
 # lib/libutils.so > export needed from audio_policy.msm8974.so
 lib/libutils.so
-lib/libOmxAacEnc.so
-lib/libOmxCore.so
-lib/libOmxQcelp13Enc.so
-lib/libOmxVdec.so
-lib/libOmxAmrEnc.so
-lib/libOmxEvrcEnc.so
-lib/libOmxVdecHevc.so
-lib/libOmxVenc.so
+#lib/libOmxAacEnc.so
+#lib/libOmxCore.so
+#lib/libOmxQcelp13Enc.so
+#lib/libOmxVdec.so
+#lib/libOmxAmrEnc.so
+#lib/libOmxEvrcEnc.so
+#lib/libOmxVdecHevc.so
+#lib/libOmxVenc.so
 
 # CM-11.0 #
 lib/libmmcamera_interface.so
@@ -22,6 +22,8 @@ lib/libgps.utils.so
 # CM-11.0 #
 
 # bin
+#bin/wcnss_service
+#bin/rild
 bin/btnvtool
 bin/diag_callback_client
 bin/diag_dci_sample
@@ -31,7 +33,6 @@ bin/diag_socket_log
 bin/diag_uart_log
 bin/hvdcp
 bin/profiler_daemon
-bin/rild
 bin/drmdiagapp
 bin/xtwifi-client
 bin/xtwifi-inet-agent
@@ -60,7 +61,6 @@ bin/wan_savelog
 bin/wan_start
 bin/wankit
 bin/wcnss_filter
-bin/wcnss_service
 bin/wdsdaemon
 bin/bridgemgrd
 bin/ds_fmc_appd
@@ -69,11 +69,11 @@ bin/mm-camera-cmd-tool
 bin/mm-qcamera-daemon
 bin/mm-venc-omx-test720p
 bin/mm-pp-daemon
-bin/mm-vdec-omx-test
-bin/mm-video-driver-test
+#bin/mm-vdec-omx-test
+#bin/mm-video-driver-test
 bin/mm-qcamera-app
-bin/mm-venc-omx-test
-bin/mm-video-encdrv-test
+#bin/mm-venc-omx-test
+#bin/mm-video-encdrv-test
 bin/mpdecision
 bin/netmgrd
 bin/nl_listener
@@ -94,6 +94,10 @@ bin/usbhub_init
 xbin/trapz
 
 # etc
+#etc/bluetooth/auto_pair_devlist.conf
+#etc/bluetooth/bt_stack.conf
+#etc/bluetooth/bt_did.conf
+#etc/clatd.conf
 etc/xtwifi.conf
 etc/xtra_root_cert.pem
 etc/wfdconfigsink.xml
@@ -151,7 +155,6 @@ etc/ds-default.xml
 etc/display_conf
 #etc/contentsupport.json
 #etc/com.amazon.android.acos.xml
-etc/clatd.conf
 etc/chronos.conf
 etc/carrier.xml
 etc/capability.xml
@@ -173,21 +176,18 @@ etc/permissions/acclibrary.xml
 etc/hostapd/hostapd_default.conf
 etc/hostapd/hostapd.deny
 etc/hostapd/hostapd.accept
-etc/dhcpcd/dhcpcd.conf
-etc/dhcpcd/dhcpcd-run-hooks
-etc/dhcpcd/dhcpcd-hooks/95-configured
-etc/dhcpcd/dhcpcd-hooks/20-dns.conf
+#etc/dhcpcd/dhcpcd.conf
+#etc/dhcpcd/dhcpcd-run-hooks
+#etc/dhcpcd/dhcpcd-hooks/95-configured
+#etc/dhcpcd/dhcpcd-hooks/20-dns.conf
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
 etc/cne/NsrmConfiguration.xml
 etc/bluetooth/network.conf
 etc/bluetooth/main.conf
 etc/bluetooth/input.conf
-etc/bluetooth/bt_stack.conf
-etc/bluetooth/bt_did.conf
 etc/bluetooth/blacklist.conf
 etc/bluetooth/auto_pairing.conf
-etc/bluetooth/auto_pair_devlist.conf
 etc/bluetooth/audio.conf
 etc/acdbdata/THOR/Speaker_cal.acdb
 etc/acdbdata/THOR/Headset_cal.acdb
@@ -219,8 +219,8 @@ etc/acdbdata/Fluid/Fluid_General_cal.acdb
 etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
 
 # inputs
-usr/share/bmd/RFFstd_501.bmd
-usr/share/bmd/RFFspeed_501.bmd
+#usr/share/bmd/RFFstd_501.bmd
+#usr/share/bmd/RFFspeed_501.bmd
 usr/keylayout/synaptics_rmi4_i2c.kl
 usr/keylayout/msm8974-taiko-tablet-snd-card_JACK.kl
 usr/keylayout/gpio-keys.kl
@@ -229,7 +229,6 @@ usr/keylayout/Vendor_1949_Product_0402.kl
 usr/idc/amazon_touch.idc
 
 # libs
-#lib/libhardware_legacy.so
 lib/libril-lab126qmi.so
 lib/libaudioroute.so
 lib/libsmartvolume.so
@@ -238,10 +237,10 @@ lib/hw/audio_policy.msm8974.so
 lib/hw/keystore.amzn.qcom.so
 lib/hw/camera.msm8974.so
 
-#lib/libchromatix_imx135_video_hd.so
-#lib/libchromatix_ov8835_zsl.so
-#lib/libgps.utils.so
-#lib/libgpu.cr.so
+lib/libchromatix_imx135_video_hd.so
+lib/libchromatix_ov8835_zsl.so
+lib/libgps.utils.so
+lib/libgpu.cr.so
 
 # vendor
 #vendor/lib/libbt-vendor.so
@@ -508,7 +507,7 @@ vendor/lib/libqmi_client_qmux.so
 vendor/lib/libualutil.so
 vendor/lib/libsc-a2xx.so
 vendor/lib/libwfdmmsink.so
-vendor/lib/hw/power.qcom.so
+#vendor/lib/hw/power.qcom.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libchromatix_s5k3l1yx_common.so
