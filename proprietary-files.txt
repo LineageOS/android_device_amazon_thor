@@ -67,7 +67,7 @@ bin/ds_fmc_appd
 bin/irsc_util
 bin/mm-camera-cmd-tool
 bin/mm-qcamera-daemon
-bin/mm-venc-omx-test720p
+#bin/mm-venc-omx-test720p
 bin/mm-pp-daemon
 #bin/mm-vdec-omx-test
 #bin/mm-video-driver-test
@@ -507,7 +507,7 @@ vendor/lib/libqmi_client_qmux.so
 vendor/lib/libualutil.so
 vendor/lib/libsc-a2xx.so
 vendor/lib/libwfdmmsink.so
-#vendor/lib/hw/power.qcom.so
+vendor/lib/hw/power.qcom.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libchromatix_s5k3l1yx_common.so
