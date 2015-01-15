@@ -22,9 +22,9 @@ lib/libgps.utils.so
 # CM-11.0 #
 
 # bin
-#bin/wcnss_service
 #bin/rild
 bin/btnvtool
+bin/wcnss_service
 bin/diag_callback_client
 bin/diag_dci_sample
 bin/diag_klog
@@ -41,6 +41,7 @@ bin/quipc_igsn
 bin/quipc_main
 bin/gpsone_daemon
 bin/qmiproxy
+bin/imsqmidaemon
 bin/ftmdaemon
 bin/dun-server
 bin/sapd
@@ -94,9 +95,10 @@ bin/usbhub_init
 xbin/trapz
 
 # etc
-#etc/bluetooth/auto_pair_devlist.conf
-#etc/bluetooth/bt_stack.conf
-#etc/bluetooth/bt_did.conf
+etc/bluetooth/auto_pair_devlist.conf
+etc/bluetooth/bt_stack.conf
+etc/bluetooth/bt_did.conf
+etc/bluetooth/bt_stack_rel.conf
 #etc/clatd.conf
 etc/xtwifi.conf
 etc/xtra_root_cert.pem
@@ -107,15 +109,9 @@ etc/usf_settings.sh
 etc/usf_post_boot.sh
 etc/thermal-engine-thor.conf
 etc/thermal-engine-8974.conf
-#etc/system_fonts_ja.xml
-#etc/system_fonts_cn.xml
-#etc/system_fonts.xml
-#etc/shipcleanmode.conf
 etc/sensor_def_qcomdev.conf
 etc/sec_config
 etc/sap.conf
-#etc/resize_user_data.sh
-#etc/recovery-resource.dat
 etc/quipc.conf
 etc/qosmgr_rules.xml
 etc/qca6234-service.sh
@@ -146,15 +142,8 @@ etc/gps.conf
 #etc/ftm_test_config
 etc/flp.conf
 etc/fdrw_default.conf
-#etc/fallback_fonts_latin.xml
-#etc/fallback_fonts_ja.xml
-#etc/fallback_fonts_cn.xml
-#etc/fallback_fonts.xml
-#etc/event-log-tags
 etc/ds-default.xml
 etc/display_conf
-#etc/contentsupport.json
-#etc/com.amazon.android.acos.xml
 etc/chronos.conf
 etc/carrier.xml
 etc/capability.xml
@@ -163,23 +152,17 @@ etc/bcompat.manifest
 etc/audio_effects.conf
 etc/audio_policy.conf
 etc/apns-conf.xml
-#etc/amz-preloaded-classes
 etc/ad_calib.cfg
 etc/ReceiverFilterPolicy.xml
 etc/DxHDCP.cfg
 etc/wifi/wpa_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_ath6kl.conf
-#etc/wifi/wpa_supplicant.conf
 etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/WCNSS_qcom_cfg.ini
 etc/permissions/acclibrary.xml
 etc/hostapd/hostapd_default.conf
 etc/hostapd/hostapd.deny
 etc/hostapd/hostapd.accept
-#etc/dhcpcd/dhcpcd.conf
-#etc/dhcpcd/dhcpcd-run-hooks
-#etc/dhcpcd/dhcpcd-hooks/95-configured
-#etc/dhcpcd/dhcpcd-hooks/20-dns.conf
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
 etc/cne/NsrmConfiguration.xml
@@ -219,8 +202,6 @@ etc/acdbdata/Fluid/Fluid_General_cal.acdb
 etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
 
 # inputs
-#usr/share/bmd/RFFstd_501.bmd
-#usr/share/bmd/RFFspeed_501.bmd
 usr/keylayout/synaptics_rmi4_i2c.kl
 usr/keylayout/msm8974-taiko-tablet-snd-card_JACK.kl
 usr/keylayout/gpio-keys.kl
@@ -245,6 +226,7 @@ lib/libgpu.cr.so
 # vendor
 #vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
+-vendor/lib/libtime_genoff.so
 vendor/smartvolume/bt_a2dp_headphones.csv
 vendor/smartvolume/bt_sco_headset.csv
 vendor/smartvolume/earpiece.csv
@@ -396,7 +378,6 @@ vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libSHIMDivxDrm.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libepdsp.so
-vendor/lib/libtime_genoff.so
 vendor/lib/libmmcamera_star_eeprom.so
 vendor/lib/libCommandSvc.so
 vendor/lib/libmmcamera_skuab_shinetech_gc0339.so
