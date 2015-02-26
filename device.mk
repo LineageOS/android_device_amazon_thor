@@ -24,3 +24,4 @@ $(call inherit-product-if-exists, vendor/amazon/thor/thor-vendor.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
+

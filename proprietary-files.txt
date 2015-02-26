@@ -154,7 +154,6 @@ etc/audio_policy.conf
 etc/apns-conf.xml
 etc/ad_calib.cfg
 etc/ReceiverFilterPolicy.xml
-etc/DxHDCP.cfg
 etc/wifi/wpa_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_ath6kl.conf
 etc/wifi/p2p_supplicant_overlay.conf
