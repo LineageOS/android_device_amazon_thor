@@ -1,6 +1,6 @@
 # amazon update 4.5.2
 # lib/libutils.so > export needed from audio_policy.msm8974.so
-lib/libutils.so
+#lib/libutils.so
 #lib/libOmxAacEnc.so
 #lib/libOmxCore.so
 #lib/libOmxQcelp13Enc.so
@@ -212,8 +212,8 @@ usr/idc/amazon_touch.idc
 lib/libril-lab126qmi.so
 lib/libaudioroute.so
 lib/libsmartvolume.so
-lib/hw/audio.primary.msm8974.so
-lib/hw/audio_policy.msm8974.so
+#lib/hw/audio.primary.msm8974.so
+#lib/hw/audio_policy.msm8974.so
 lib/hw/keystore.amzn.qcom.so
 lib/hw/camera.msm8974.so
 
