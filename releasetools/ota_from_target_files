@@ -40,9 +40,19 @@ ota.OPTIONS.extra_script = os.path.realpath(os.path.join(os.path.dirname(__file_
 
 if __name__ == '__main__':
   try:
+    print "####################################"
+    print "HDX HACK: OTA_FROM_TARGET_FILE START"
+    print "####################################"
+    common.CloseInheritedPipes()
     ota.main(sys.argv[1:])
   except common.ExternalError, e:
     print
     print "   ERROR: %s" % (e,)
     print
     sys.exit(1)
+  finally:
+    common.Cleanup()
+    print "##################################"
+    print "HDX HACK: OTA_FROM_TARGET_FILE END"
+    print "##################################"
+

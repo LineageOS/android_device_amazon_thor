@@ -1,6 +1,7 @@
 # amazon update 4.5.2
 # lib/libutils.so > export needed from audio_policy.msm8974.so
 #lib/libutils.so
+
 #lib/libOmxAacEnc.so
 #lib/libOmxCore.so
 #lib/libOmxQcelp13Enc.so
@@ -284,7 +285,7 @@ vendor/lib/liblowi_client.so
 vendor/lib/libchromatix_imx135_hfr_120.so
 vendor/lib/libwfdsm.so
 vendor/lib/lib-imsxml.so
-vendor/lib/libqc-opt.so
+#vendor/lib/libqc-opt.so
 vendor/lib/libwfdrtsp.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libSubSystemShutdown.so
