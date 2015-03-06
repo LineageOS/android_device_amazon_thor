@@ -70,7 +70,7 @@ bin/irsc_util
 bin/mm-camera-cmd-tool
 bin/mm-qcamera-daemon
 #bin/mm-venc-omx-test720p
-bin/mm-pp-daemon
+#bin/mm-pp-daemon
 #bin/mm-vdec-omx-test
 #bin/mm-video-driver-test
 bin/mm-qcamera-app
@@ -120,8 +120,8 @@ etc/msap.conf
 etc/monitoring.conf
 etc/mixer_paths_auxpcm.xml
 etc/mixer_paths.xml
-etc/media_profiles.xml
-etc/media_codecs.xml
+#etc/media_profiles.xml
+#etc/media_codecs.xml
 etc/lowi.conf
 etc/kft_blacklist.conf
 etc/izat.conf
@@ -150,9 +150,9 @@ etc/carrier.xml
 etc/capability.xml
 etc/cacert_location.pem
 etc/bcompat.manifest
-etc/audio_effects.conf
-etc/audio_policy.conf
-etc/apns-conf.xml
+#etc/audio_effects.conf
+#etc/audio_policy.conf
+#etc/apns-conf.xml
 etc/ad_calib.cfg
 etc/ReceiverFilterPolicy.xml
 etc/wifi/wpa_supplicant_overlay.conf
@@ -171,7 +171,7 @@ etc/bluetooth/main.conf
 etc/bluetooth/input.conf
 etc/bluetooth/blacklist.conf
 etc/bluetooth/auto_pairing.conf
-etc/bluetooth/audio.conf
+#etc/bluetooth/audio.conf
 etc/acdbdata/THOR/Speaker_cal.acdb
 etc/acdbdata/THOR/Headset_cal.acdb
 etc/acdbdata/THOR/Hdmi_cal.acdb
@@ -211,7 +211,7 @@ usr/idc/amazon_touch.idc
 
 # libs
 lib/libril-lab126qmi.so
-lib/libaudioroute.so
+#lib/libaudioroute.so
 lib/libsmartvolume.so
 #lib/hw/audio.primary.msm8974.so
 #lib/hw/audio_policy.msm8974.so
@@ -492,8 +492,8 @@ vendor/lib/libwfdmmsink.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libchromatix_s5k3l1yx_common.so
-vendor/lib/soundfx/libhwdap.so
-vendor/lib/soundfx/libswdap.so
+#vendor/lib/soundfx/libhwdap.so
+#vendor/lib/soundfx/libswdap.so
 vendor/lib/libmmipstreamnetwork.so
 vendor/lib/libizat_core.so
 vendor/lib/libprdrmdecrypt.so
@@ -523,7 +523,7 @@ vendor/lib/libOmxMux.so
 vendor/lib/libscve_stub.so
 vendor/lib/libtzplayready.so
 vendor/lib/libI420colorconvert.so
-vendor/etc/audio_effects.conf
+#vendor/etc/audio_effects.conf
 
 # firmwares
 etc/firmware/a225_pfp.fw
