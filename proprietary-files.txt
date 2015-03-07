@@ -118,8 +118,8 @@ etc/qosmgr_rules.xml
 etc/qca6234-service.sh
 etc/msap.conf
 etc/monitoring.conf
-etc/mixer_paths_auxpcm.xml
-etc/mixer_paths.xml
+#etc/mixer_paths_auxpcm.xml
+#etc/mixer_paths.xml
 #etc/media_profiles.xml
 #etc/media_codecs.xml
 etc/lowi.conf
@@ -492,8 +492,8 @@ vendor/lib/libwfdmmsink.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libchromatix_s5k3l1yx_common.so
-#vendor/lib/soundfx/libhwdap.so
-#vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libswdap.so
 vendor/lib/libmmipstreamnetwork.so
 vendor/lib/libizat_core.so
 vendor/lib/libprdrmdecrypt.so
