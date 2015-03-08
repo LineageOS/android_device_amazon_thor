@@ -4,16 +4,9 @@ DEVICE_FOLDER := device/amazon/thor
 PRODUCT_PROPERTY_OVERRIDES += \
 	hwui.render_dirty_regions=false
 
-# RIL turn off
-PRODUCT_PROPERTY_OVERRIDES += \
-	keyguard.no_require_sim=1 \
-	ro.radio.use-ppp=no \
-	ro.config.nocheckin=yes \
-	ro.radio.noril=yes
-
-# wifi-only device
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.carrier=wifi-only
+# Disable ext sdcard
+PRODUCT_CHARACTERISTICS := \
+	tablet,nosdcard
 
 # Inherit from hdx
 $(call inherit-product, device/amazon/hdx-common/hdx-common.mk)
