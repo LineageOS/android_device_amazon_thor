@@ -78,7 +78,7 @@ bin/irsc_util
 bin/mm-camera-cmd-tool
 bin/mm-qcamera-daemon
 #bin/mm-venc-omx-test720p
-#bin/mm-pp-daemon
+bin/mm-pp-daemon
 #bin/mm-vdec-omx-test
 #bin/mm-video-driver-test
 bin/mm-qcamera-app
@@ -231,7 +231,7 @@ lib/libgps.utils.so
 lib/libgpu.cr.so
 
 # vendor
-#vendor/lib/libbt-vendor.so
+vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
 -vendor/lib/libtime_genoff.so
 vendor/smartvolume/bt_a2dp_headphones.csv
