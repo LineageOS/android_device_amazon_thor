@@ -390,7 +390,7 @@ vendor/lib/libCommandSvc.so
 vendor/lib/libmmcamera_skuab_shinetech_gc0339.so
 vendor/lib/libqmiservices.so
 vendor/lib/libdisp-aba.so
-vendor/lib/libcryptfs_hw.so
+#vendor/lib/libcryptfs_hw.so
 vendor/lib/libsecureui.so
 vendor/lib/lib-imsdpl.so
 vendor/lib/libchromatix_ov8835_hfr_60fps.so
