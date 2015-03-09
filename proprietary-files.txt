@@ -31,7 +31,7 @@ lib/libgps.utils.so
 # CM-11.0 #
 
 # bin
-#bin/rild
+bin/rild
 bin/btnvtool
 bin/wcnss_service
 bin/diag_callback_client
