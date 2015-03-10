@@ -1,24 +1,3 @@
-# CM-12.0
-# TODO: fix audio.primary.msm8974 sources or audio configs for speakers output
-# TODO: fix audio.usb.default broken by audio.primary blob (cannot locate symbol "pcm_params_get_mask")
-# TODO: remove tinyalsa blob dependency added with audio.primary.msm8974 blob
-lib/hw/audio.primary.msm8974.so
-lib/libtinyalsa.so
-# CM-12.0
-
-# amazon update 4.5.2
-# lib/libutils.so > export needed from audio_policy.msm8974.so
-#lib/libutils.so
-
-#lib/libOmxAacEnc.so
-#lib/libOmxCore.so
-#lib/libOmxQcelp13Enc.so
-#lib/libOmxVdec.so
-#lib/libOmxAmrEnc.so
-#lib/libOmxEvrcEnc.so
-#lib/libOmxVdecHevc.so
-#lib/libOmxVenc.so
-
 # CM-11.0 #
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
