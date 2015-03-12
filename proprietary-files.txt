@@ -1,7 +1,27 @@
+# CM-12.0 #
+# MEDIA CODECS #
+lib/libOmxVdecHevc.so
+lib/libqomx_core.so
+#lib/libOmxAmrEnc.so
+#lib/libOmxCore.so
+#lib/libOmxEvrcEnc.so
+#lib/libOmxVdec.so
+#lib/libOmxVenc.so
+#lib/libOmxQcelp13Enc.so
+#lib/libOmxAacEnc.so
+#lib/libmm-omxcore.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxMux.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libqomx_jpegenc.so
+vendor/lib/libOmxWmaDec.so
+# CM-12.0 #
+
 # CM-11.0 #
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
-lib/libqomx_core.so
 lib/libloc_api_v02.so
 lib/libloc_core.so
 lib/libloc_ds_api.so
@@ -56,13 +76,8 @@ bin/ds_fmc_appd
 bin/irsc_util
 bin/mm-camera-cmd-tool
 bin/mm-qcamera-daemon
-#bin/mm-venc-omx-test720p
 bin/mm-pp-daemon
-#bin/mm-vdec-omx-test
-#bin/mm-video-driver-test
 bin/mm-qcamera-app
-#bin/mm-venc-omx-test
-#bin/mm-video-encdrv-test
 bin/mpdecision
 bin/netmgrd
 bin/nl_listener
@@ -240,7 +255,6 @@ vendor/lib/libchromatix_ov8825_default_video.so
 vendor/lib/libchromatix_ov8835_snapshot.so
 vendor/lib/libchromatix_imx135_default_video.so
 vendor/lib/libmmQSM.so
-vendor/lib/libOmxEvrcDec.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmrtpencoder.so
 vendor/lib/lib-sec-disp.so
@@ -251,7 +265,6 @@ vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so
 vendor/lib/liboi_sbc_decoder.so
 vendor/lib/libchromatix_imx135_common.so
 vendor/lib/libchromatix_ov2720_preview.so
-vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libAivPlay.so
 vendor/lib/libHevcSwDecoder.so
 vendor/lib/libppl.so
@@ -344,7 +357,6 @@ vendor/lib/libchromatix_ov2720_zsl.so
 vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/libidl.so
 vendor/lib/libdsi_netctrl.so
-vendor/lib/libOmxAacDec.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libwfdcommonutils.so
 vendor/lib/libqdi.so
@@ -362,7 +374,6 @@ vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libSHIMDivxDrm.so
-vendor/lib/libqomx_jpegenc.so
 vendor/lib/libepdsp.so
 vendor/lib/libmmcamera_star_eeprom.so
 vendor/lib/libCommandSvc.so
@@ -393,7 +404,6 @@ vendor/lib/libchromatix_ov2720_hfr.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libDivxDrm.so
 vendor/lib/libwfduibcsinkinterface.so
-vendor/lib/libOmxWmaDec.so
 vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/libmmcamera_faceproc.so
@@ -440,7 +450,6 @@ vendor/lib/libStDrvInt.so
 vendor/lib/libchromatix_imx132_default_video.so
 vendor/lib/libaudcal.so
 vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libchromatix_s5k3l1yx_zsl.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libchromatix_ov8835_common.so
@@ -449,7 +458,7 @@ vendor/lib/libwfdmmsrc.so
 vendor/lib/libdsucsd.so
 vendor/lib/libchromatix_ov9724_common.so
 vendor/lib/libmmwfdinterface.so
-vendor/lib/mediadrm/libwvdrmengine.so
+#vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libxt_native.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libsc-a3xx.so
@@ -505,7 +514,6 @@ vendor/lib/libmmipstreamaal.so
 vendor/lib/libmmcamera_ov9726.so
 vendor/lib/lib-rtpsl.so
 vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libOmxMux.so
 vendor/lib/libscve_stub.so
 vendor/lib/libtzplayready.so
 vendor/lib/libI420colorconvert.so
