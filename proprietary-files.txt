@@ -200,7 +200,7 @@ lib/libgpu.cr.so
 # vendor
 vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
--vendor/lib/libtime_genoff.so
+vendor/lib/libtime_genoff.so
 vendor/lib/libsensor1.so
 vendor/lib/libxtadapter.so
 vendor/lib/libTimeService.so
