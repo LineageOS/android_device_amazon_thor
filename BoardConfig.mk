@@ -1,6 +1,6 @@
-# Kernel config
-TARGET_KERNEL_SOURCE := kernel/amazon/hdx-common
-TARGET_KERNEL_CONFIG := thor-cyanogenmod_defconfig
+# Kernel
+TARGET_KERNEL_VARIANT_CONFIG := thor_defconfig
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 mdss_mdp.panel=0:qcom,mdss_dsi_novatek_1080p_video androidboot.selinux=permissive
 
 # inherit from common hdx
 -include device/amazon/hdx-common/BoardConfigCommon.mk
