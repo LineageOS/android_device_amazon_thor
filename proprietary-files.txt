@@ -408,7 +408,7 @@ vendor/lib/libchromatix_imx135_hfr_120.so
 vendor/lib/libchromatix_imx135_hfr_60.so
 vendor/lib/libchromatix_imx135_preview.so
 vendor/lib/libchromatix_imx135_snapshot.so
-lib/libchromatix_imx135_video_hd.so
+vendor/lib/libchromatix_imx135_video_hd.so
 vendor/lib/libchromatix_ov2720_common.so
 vendor/lib/libchromatix_ov2720_default_video.so
 vendor/lib/libchromatix_ov2720_hfr.so
@@ -423,7 +423,7 @@ vendor/lib/libchromatix_ov8835_liveshot.so
 vendor/lib/libchromatix_ov8835_preview.so
 vendor/lib/libchromatix_ov8835_snapshot.so
 vendor/lib/libchromatix_ov8835_video.so
-lib/libchromatix_ov8835_zsl.so
+vendor/lib/libchromatix_ov8835_zsl.so
 vendor/lib/libchromatix_ov9724_common.so
 vendor/lib/libchromatix_ov9724_default_video.so
 vendor/lib/libchromatix_ov9724_preview.so
