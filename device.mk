@@ -21,9 +21,10 @@ ADDITIONAL_BUILD_PROPERTIES += \
 	ro.qcom.ad=1 \
 	ro.usb.pid=000c
 
-# WLAN configs
+# configs
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	$(LOCAL_PATH)/configs/wifi/wpa_supplicant_ath6kl.conf:system/etc/wifi/wpa_supplicant.conf \
 	$(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-	$(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
+	$(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+	$(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
