@@ -49,7 +49,6 @@ bin/abtfilt
 bin/rfs_access
 bin/ptt_socket_app
 bin/adsprpcd
-bin/cnd
 bin/display
 bin/ssr_diag
 bin/get_emmcid.sh
@@ -99,8 +98,6 @@ etc/wfdconfig.xml
 etc/vendor_service.conf
 etc/usf_settings.sh
 etc/usf_post_boot.sh
-etc/thermal-engine-thor.conf
-etc/thermal-engine-8974.conf
 etc/sensor_def_qcomdev.conf
 etc/sec_config
 etc/sap.conf
@@ -112,18 +109,15 @@ etc/monitoring.conf
 etc/lowi.conf
 etc/kft_blacklist.conf
 etc/izat.conf
-etc/init.set_model.sh
 etc/init.qcom.wifi.sh
 etc/init.qcom.sdio.sh
 etc/init.qcom.post_boot.sh
-etc/init.qcom.modem_links.sh
 etc/init.qcom.fm.sh
 etc/init.qcom.efs.sync.sh
 etc/init.qcom.coex.sh
 etc/init.qcom.bt.sh
 etc/init.qcom.audio.sh
 etc/init.crda.sh
-etc/init.ath3k.bt.sh
 etc/hsic.control.bt.sh
 etc/hcidump.sh
 etc/gps.conf
