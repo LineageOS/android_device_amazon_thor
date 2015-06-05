@@ -272,7 +272,6 @@ vendor/lib/libqdi.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
 vendor/lib/drm/libdrmprplugin.so
-vendor/lib/libdrmdecrypt.so
 vendor/lib/libgessockadapter.so
 vendor/lib/libxml.so
 vendor/lib/libqmi_cci.so
@@ -462,13 +461,6 @@ vendor/lib/librs_adreno.so
 vendor/lib/libscve.so
 vendor/lib/libsc-a2xx.so
 vendor/lib/libsc-a3xx.so
-
-# Widevine Libs
-vendor/lib/drm/libdrmwvmplugin.so
-#vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/libwvm.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libWVStreamControlAPI_L3.so
 
 # firmwares
 etc/firmware/a225_pfp.fw
