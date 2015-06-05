@@ -131,10 +131,6 @@ etc/cacert_location.pem
 etc/bcompat.manifest
 etc/ad_calib.cfg
 etc/ReceiverFilterPolicy.xml
-etc/wifi/wpa_supplicant_overlay.conf
-etc/wifi/wpa_supplicant_ath6kl.conf
-etc/wifi/p2p_supplicant_overlay.conf
-etc/wifi/WCNSS_qcom_cfg.ini
 etc/hostapd/hostapd_default.conf
 etc/hostapd/hostapd.deny
 etc/hostapd/hostapd.accept
