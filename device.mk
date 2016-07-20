@@ -13,6 +13,8 @@ $(call inherit-product, device/amazon/hdx-common/hdx-common.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/amazon/thor/thor-vendor.mk)
+# Adreno libs
+$(call inherit-product-if-exists, vendor/amazon/adreno-330/adreno-330-vendor.mk)
 
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
