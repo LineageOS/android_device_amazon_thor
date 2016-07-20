@@ -76,7 +76,6 @@ bin/qmuxd
 bin/qseecom_sample_client
 bin/qseecomd
 bin/qseecom_security_test
-bin/qseecomd_static
 bin/radish
 bin/rmt_storage
 bin/sensors.qcom
@@ -212,13 +211,10 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libmmhttpstack.so
 vendor/lib/libthermalioctl.so
 vendor/lib/libqcci_legacy.so
-vendor/lib/libmmwfdsinkinterface.so
 vendor/lib/libssd.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liblowi_client.so
-vendor/lib/libwfdsm.so
 vendor/lib/lib-imsxml.so
-vendor/lib/libwfdrtsp.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libSubSystemShutdown.so
 vendor/lib/libacdbmapper.so
@@ -228,7 +224,6 @@ vendor/lib/libExtendedExtractor.so
 vendor/lib/libquipc_ulp_adapter.so
 vendor/lib/libdsnetutils.so
 vendor/lib/liboemcamera.so
-vendor/lib/libwfduibcinterface.so
 vendor/lib/librmp.so
 vendor/lib/libcneutils.so
 vendor/lib/libFileMux.so
@@ -243,14 +238,12 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libual.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libaudioalsa.so
-vendor/lib/libwfdmmutils.so
 vendor/lib/libloc_ext.so
 vendor/lib/libmmiipstreammmihttp.so
 vendor/lib/libcneconn.so
 vendor/lib/libadiertac.so
 vendor/lib/lib-imscamera.so
 vendor/lib/libdsutils.so
-vendor/lib/libmmwfdsrcinterface.so
 vendor/lib/libacdbloader.so
 vendor/lib/libusndroute.so
 vendor/lib/lib-imsqimf.so
@@ -263,7 +256,6 @@ vendor/lib/lib-imss.so
 vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/libidl.so
 vendor/lib/libdsi_netctrl.so
-vendor/lib/libwfdcommonutils.so
 vendor/lib/libqdi.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
@@ -278,27 +270,22 @@ vendor/lib/libqmiservices.so
 vendor/lib/libsecureui.so
 vendor/lib/lib-imsdpl.so
 vendor/lib/libquipc_os_api.so
-vendor/lib/libwfduibcsrc.so
 vendor/lib/libmmgesture-bus2.so
-vendor/lib/libwfdnative.so
 vendor/lib/libscale.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libloc_xtra.so
 vendor/lib/lib-imsvt.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libDivxDrm.so
-vendor/lib/libwfduibcsinkinterface.so
 vendor/lib/libmsapm_jni.so
 vendor/lib/lib-rcsjni.so
 vendor/lib/lib-dplmedia.so
-vendor/lib/libllvm-qcom.so
 vendor/lib/libmmQTA.so
 vendor/lib/librpmb.so
 vendor/lib/libP11EncryptorDecryptor.so
 vendor/lib/libmmipl.so
 vendor/lib/libsubsystem_control.so
 vendor/lib/libacdbrtac.so
-vendor/lib/libwfdhdcpcp.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
@@ -314,13 +301,10 @@ vendor/lib/libmmipstreamsourcehttp.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libaudcal.so
 vendor/lib/libfastcvadsp_stub.so
-vendor/lib/libwfdmmsrc.so
 vendor/lib/libdsucsd.so
-vendor/lib/libmmwfdinterface.so
 vendor/lib/libxt_native.so
 vendor/lib/libmmjpeg.so
 vendor/lib/lib-rtpcommon.so
-vendor/lib/libwfduibcsink.so
 vendor/lib/liblbs_core.so
 vendor/lib/libgeofence.so
 vendor/lib/lib-rcsimssjni.so
@@ -328,7 +312,6 @@ vendor/lib/libconfigdb.so
 vendor/lib/libalarmservice_jni.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libualutil.so
-vendor/lib/libwfdmmsink.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/soundfx/libhwdap.so
@@ -337,7 +320,6 @@ vendor/lib/libmmipstreamnetwork.so
 vendor/lib/libizat_core.so
 vendor/lib/libprdrmdecrypt.so
 vendor/lib/libmmipstreamutils.so
-vendor/lib/libwfduibcsrcinterface.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libdrmdiag.so
 vendor/lib/liblistensoundmodel.so
@@ -347,7 +329,6 @@ vendor/lib/libwifiscanner.so
 vendor/lib/libdrmtime.so
 vendor/lib/libmmipstreamaal.so
 vendor/lib/lib-rtpsl.so
-vendor/lib/libscve_stub.so
 vendor/lib/libtzplayready.so
 vendor/lib/libI420colorconvert.so
 
@@ -436,27 +417,7 @@ vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so
 vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so
 vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so
 vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so
-
-# Adreno Libs
-vendor/lib/egl/eglsubAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libC2D2.so
-vendor/lib/libc2d2_z180.so
-vendor/lib/libc2d30.so
-vendor/lib/libc2d30-a3xx.so
-vendor/lib/libc2d30-a4xx.so
-vendor/lib/libCB.so
-vendor/lib/libgsl.so
-vendor/lib/libOpenCL.so
-vendor/lib/libOpenVG.so
-vendor/lib/librs_adreno.so
-vendor/lib/libscve.so
-vendor/lib/libsc-a2xx.so
-vendor/lib/libsc-a3xx.so
+vendor/lib/libqc-opt.so
 
 # firmwares
 etc/firmware/a225_pfp.fw
@@ -476,13 +437,9 @@ etc/firmware/venus.b01
 etc/firmware/ar3k/1020201/RamPatch.txt
 etc/firmware/ar3k/1020201/PS_ASIC.pst
 etc/firmware/a330_pfp.fw
-etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_usb
-etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_sdio
-etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_sdio
-etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_usb
-etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_usb
-etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_sdio
-etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_FCC.bin
+etc/firmware/ath6k/AR6004/hw1.3/bdata.bin
+etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin
+etc/firmware/ath6k/AR6004/hw3.0/bdata.bin
 etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI_WAN.bin
 etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI.bin
 etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin
@@ -492,33 +449,3 @@ etc/firmware/venus.mbn
 etc/firmware/venus.b00
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
-
-# libbltsville (not used)
-#vendor/lib/libbltsville_ticpu.2.1.0.0.so
-#vendor/lib/libbltsville_gc2d.2.2.2.0.so
-#vendor/lib/libbltsville_ticpu_license.txt
-
-# Smart Volume (not used by our framework)
-#lib/libsmartvolume.so
-#vendor/smartvolume/bt_a2dp_headphones.csv
-#vendor/smartvolume/bt_sco_headset.csv
-#vendor/smartvolume/earpiece.csv
-#vendor/smartvolume/bt_a2dp_speaker.csv
-#vendor/smartvolume/speaker.csv
-#vendor/smartvolume/bt_sco.csv
-#vendor/smartvolume/dgtl_dock_headeset.csv
-#vendor/smartvolume/fm_radio_tx.csv
-#vendor/smartvolume/default.csv
-#vendor/smartvolume/bt_sco_carkit.csv
-#vendor/smartvolume/anlg_dock_headset.csv
-#vendor/smartvolume/aux_digital.csv
-#vendor/smartvolume/wired_headset.csv
-#vendor/smartvolume/bt_a2dp.csv
-#vendor/smartvolume/wired_headphone.csv
-
-# Dolby (not used)
-#etc/ds-default.xml
-#vendor/app/Ds.apk
-#vendor/app/Ds.odex
-#vendor/lib/libstagefright_soft_ddpdec.so
-
