@@ -4,7 +4,6 @@ lib/libOmxVdecHevc.so
 lib/libqomx_core.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxMux.so
 vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libqomx_jpegenc.so
@@ -187,7 +186,6 @@ lib/libgps.utils.so
 lib/libgpu.cr.so
 
 # vendor
-vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
 vendor/lib/libtime_genoff.so
 vendor/lib/libsensor1.so
@@ -226,7 +224,6 @@ vendor/lib/libdsnetutils.so
 vendor/lib/liboemcamera.so
 vendor/lib/librmp.so
 vendor/lib/libcneutils.so
-vendor/lib/libFileMux.so
 vendor/lib/libdrmfs.so
 vendor/lib/libextendedremotedisplay.so
 vendor/lib/libnetmgr.so
