@@ -268,7 +268,6 @@ vendor/lib/libsecureui.so
 vendor/lib/lib-imsdpl.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libmmgesture-bus2.so
-vendor/lib/libscale.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libloc_xtra.so
 vendor/lib/lib-imsvt.so
