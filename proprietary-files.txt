@@ -48,7 +48,6 @@ bin/abtfilt
 bin/rfs_access
 bin/ptt_socket_app
 bin/adsprpcd
-bin/display
 bin/ssr_diag
 bin/get_emmcid.sh
 bin/ATFWD-daemon
@@ -85,7 +84,6 @@ bin/usbhub
 bin/usbhub_init
 
 # etc
-etc/bluetooth/auto_pair_devlist.conf
 etc/bluetooth/bt_stack.conf
 etc/bluetooth/bt_did.conf
 etc/bluetooth/bt_stack_rel.conf
@@ -104,9 +102,7 @@ etc/qosmgr_rules.xml
 etc/qca6234-service.sh
 etc/msap.conf
 etc/monitoring.conf
-etc/lowi.conf
 etc/kft_blacklist.conf
-etc/izat.conf
 etc/init.qcom.wifi.sh
 etc/init.qcom.sdio.sh
 etc/init.qcom.post_boot.sh
@@ -118,10 +114,7 @@ etc/init.qcom.audio.sh
 etc/init.crda.sh
 etc/hsic.control.bt.sh
 etc/hcidump.sh
-etc/gps.conf
-etc/flp.conf
 etc/fdrw_default.conf
-etc/display_conf
 etc/chronos.conf
 etc/carrier.xml
 etc/capability.xml
@@ -135,11 +128,6 @@ etc/hostapd/hostapd.accept
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
 etc/cne/NsrmConfiguration.xml
-etc/bluetooth/network.conf
-etc/bluetooth/main.conf
-etc/bluetooth/input.conf
-etc/bluetooth/blacklist.conf
-etc/bluetooth/auto_pairing.conf
 etc/acdbdata/THOR/Speaker_cal.acdb
 etc/acdbdata/THOR/Headset_cal.acdb
 etc/acdbdata/THOR/Hdmi_cal.acdb
@@ -154,28 +142,6 @@ etc/acdbdata/MTP/MTP_Handset_cal.acdb
 etc/acdbdata/MTP/MTP_Global_cal.acdb
 etc/acdbdata/MTP/MTP_General_cal.acdb
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
-etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
-etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
-etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
-etc/acdbdata/Liquid/Liquid_Global_cal.acdb
-etc/acdbdata/Liquid/Liquid_General_cal.acdb
-etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
-etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
-etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
-etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
-etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
-etc/acdbdata/Fluid/Fluid_Global_cal.acdb
-etc/acdbdata/Fluid/Fluid_General_cal.acdb
-etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
-
-# inputs
-usr/keylayout/synaptics_rmi4_i2c.kl
-usr/keylayout/msm8974-taiko-tablet-snd-card_JACK.kl
-usr/keylayout/gpio-keys.kl
-usr/keylayout/atmel_mxt_ts.kl
-usr/keylayout/Vendor_1949_Product_0402.kl
-usr/idc/amazon_touch.idc
 
 # libs
 lib/libril-lab126qmi.so
@@ -417,31 +383,31 @@ vendor/lib/libqc-opt.so
 
 # firmwares
 etc/firmware/a225_pfp.fw
-etc/firmware/venus.mdt
 etc/firmware/a225_pm4.fw
-etc/firmware/wlan/prima/WCNSS_cfg.dat
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/venus.b02
 etc/firmware/a225p5_pm4.fw
-etc/firmware/venus.b03
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/leia_pm4_470.fw
-etc/firmware/a330_pm4.fw
-etc/firmware/leia_pfp_470.fw
-etc/firmware/venus.b04
-etc/firmware/venus.b01
-etc/firmware/ar3k/1020201/RamPatch.txt
-etc/firmware/ar3k/1020201/PS_ASIC.pst
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
 etc/firmware/a330_pfp.fw
+etc/firmware/a330_pm4.fw
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/leia_pfp_470.fw
+etc/firmware/leia_pm4_470.fw
+etc/firmware/venus.mbn
+etc/firmware/venus.mdt
+etc/firmware/venus.b00
+etc/firmware/venus.b01
+etc/firmware/venus.b02
+etc/firmware/venus.b03
+etc/firmware/venus.b04
+etc/firmware/ar3k/1020201/PS_ASIC.pst
+etc/firmware/ar3k/1020201/RamPatch.txt
 etc/firmware/ath6k/AR6004/hw1.3/bdata.bin
 etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin
 etc/firmware/ath6k/AR6004/hw3.0/bdata.bin
-etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI_WAN.bin
 etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI.bin
-etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin
+etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI_WAN.bin
 etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_FCC_WAN.bin
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/venus.mbn
-etc/firmware/venus.b00
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
+etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin
+etc/firmware/wlan/prima/WCNSS_cfg.dat
