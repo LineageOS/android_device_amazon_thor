@@ -49,7 +49,6 @@ bin/rfs_access
 bin/ptt_socket_app
 bin/adsprpcd
 bin/ssr_diag
-bin/get_emmcid.sh
 bin/ATFWD-daemon
 bin/ath6kl-service
 bin/hci_qcomm_init
