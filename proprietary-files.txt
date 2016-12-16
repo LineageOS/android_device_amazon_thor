@@ -84,9 +84,6 @@ bin/usbhub
 bin/usbhub_init
 
 # etc
-etc/bluetooth/bt_stack.conf
-etc/bluetooth/bt_did.conf
-etc/bluetooth/bt_stack_rel.conf
 etc/xtwifi.conf
 etc/xtra_root_cert.pem
 etc/wfdconfigsink.xml
