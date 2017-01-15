@@ -13,11 +13,11 @@
 # limitations under the License.
 
 # Inherit device configuration for Kindle Fire
-$(call inherit-product, device/amazon/hdx-common/cm.mk)
+$(call inherit-product, device/amazon/hdx-common/lineage.mk)
 $(call inherit-product, device/amazon/thor/full_thor.mk)
 
 TARGET_SCREEN_WIDTH := 1200
 TARGET_SCREEN_HEIGHT := 1920
 
-PRODUCT_NAME := cm_thor
+PRODUCT_NAME := lineage_thor
 PRODUCT_RELEASE_NAME := KFireHDX

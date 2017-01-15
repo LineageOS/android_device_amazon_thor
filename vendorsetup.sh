@@ -1,2 +1,2 @@
-add_lunch_combo cm_thor-userdebug
+add_lunch_combo lineage_thor-userdebug
 
